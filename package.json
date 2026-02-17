@@ -1,0 +1,19 @@
+{
+  "name": "af-lab04",
+  "version": "1.0.0",
+  "description": "create app.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pasindu20020817/AF-lab04.git"
+  },
+  "author": "Pasindu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pasindu20020817/AF-lab04/issues"
+  },
+  "homepage": "https://github.com/Pasindu20020817/AF-lab04#readme"
+}
