@@ -40,3 +40,20 @@ https.get('https://jsonplaceholder.typicode.com/posts/1', (resp) => {   let data
 // Using a module
 const myModule = require('./my-module.js');
 console.log(myModule.myFunction());
+
+// Using Promises in Node.js
+const condition = true;
+
+const myPromise = new Promise((resolve, reject) => {
+  if (condition) {
+    resolve('Success!');
+  } else {
+    reject('Failure!');
+  }
+});
+
+myPromise.then((result) => {
+  console.log(result);
+}).catch((error) => {
+  console.log(error);
+});
